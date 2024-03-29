@@ -1,0 +1,33 @@
+.header-container{
+  background-color: #343a40;
+  height: var(--height_Header);
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.agenda-name, .register-contact, .enter{
+  cursor: pointer;
+  color: white;
+}
+
+.agenda-name{
+  font-size: 1.5em;
+}
+
+.btn-rigth {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.register-contact:hover, .enter:hover{
+  color: rgb(205, 204, 204);
+}

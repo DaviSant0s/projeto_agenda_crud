@@ -1,9 +1,14 @@
 import './App.css'
+import Header from './components/Header'
+import Enter from './pages/Enter'
 
 function App() {
 
   return (
-    <div>projeto agenda</div>
+    <div>
+      <Header/>
+      <Enter/>
+    </div>
   )
 }
 
