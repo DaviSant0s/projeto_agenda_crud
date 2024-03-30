@@ -1,0 +1,22 @@
+.sucess-container {
+  background-color: #d4edda;
+  width: 700px;
+  height: 45px;
+  border-radius: 3px;
+  outline: 1px solid #b9edc5;
+
+  display: flex;
+  justify-content: left;
+  align-items: center;
+
+  padding-left: 20px;
+
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.sucess-container > span {
+  color: #155724db;
+  font-size: 1em;
+  font-weight: 400;
+}

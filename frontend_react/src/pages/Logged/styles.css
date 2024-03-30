@@ -1,0 +1,18 @@
+.logged-containter{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding-top: 20px;
+
+}
+
+.logged-containter > h1 {
+  font-size: var(--fontSizeTitle);
+}
+
+.logged-containter > p {
+  font-size: 1.3em;
+  margin-top: 5px;
+}

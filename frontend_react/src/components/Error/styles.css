@@ -1,0 +1,23 @@
+.error-container {
+  background-color: #f8d7da;
+  width: 700px;
+  height: 45px;
+  border-radius: 3px;
+
+  outline: 1px solid #f5c6cb;
+
+  display: flex;
+  justify-content: left;
+  align-items: center;
+
+  padding-left: 20px;
+
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.error-container > span {
+  color: #721c25e3;
+  font-size: 1em;
+  font-weight: 400;
+}
