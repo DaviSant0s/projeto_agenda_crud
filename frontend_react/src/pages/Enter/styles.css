@@ -11,6 +11,10 @@
   
 }
 
+.enter-container > h1 {
+  font-size: var(--fontSizeTitle);
+}
+
 .inputs-container{
   display: flex;
   flex-direction: row;
@@ -27,40 +31,7 @@
   gap: 10px;
 }
 
-.usual-style-inputs-enter{
-  display: flex;
-  flex-direction: column;
-}
-
-.inputs-container input{
-  width: 300px;
-  height: 30px;
-  border-radius: 5px;
-  border: 1px solid #ced4da;
-
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-.inputs-container input:focus{
-  outline: none;
-}
-
-.enter-container button{
-  height: 30px;
-  border-radius: 5px;
-  cursor: pointer;
-  background-color: #007bff;
-  color: white;
-  border: none;
-}
-
-.enter-container button:hover{
-  background-color: #0065d1;
-}
-
 .enter-container p {
-  font-weight: 200;
   margin-top: 5px;
 }
 

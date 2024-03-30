@@ -9,12 +9,12 @@ export default function Enter() {
 
         <div className='inputs-register'>
 
-          <div className='usual-style-inputs-enter'>
+          <div className='usual-style-inputs'>
             <span>Seu e-mail</span>
             <input type="email" name="email-register"/>
           </div>
 
-          <div className='usual-style-inputs-enter'>
+          <div className='usual-style-inputs'>
             <span>Sua senha</span>
             <input type="password" name="password-register"/>
           </div>
@@ -25,13 +25,13 @@ export default function Enter() {
 
         <div className='inputs-login'>
 
-          <div className='usual-style-inputs-enter'>
+          <div className='usual-style-inputs'>
             <span>Seu e-mail</span>
             <input type="email" name="email-login"/>
           </div>
 
           <div>
-            <span className='usual-style-inputs-enter'>Sua senha</span>
+            <span className='usual-style-inputs'>Sua senha</span>
             <input type="password" name="password-login"/>
           </div>
 
