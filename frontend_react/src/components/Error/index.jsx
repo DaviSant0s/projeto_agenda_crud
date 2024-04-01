@@ -1,8 +1,8 @@
 import './styles.css';
 
-export default function Error({ msg }) {
+export default function Error({ msg, style={} }) {
   return (
-    <div className='error-container'>
+    <div style={style} className='error-container'>
       <span>{msg}</span>
     </div>
   )

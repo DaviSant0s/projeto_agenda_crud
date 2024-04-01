@@ -1,7 +1,7 @@
 .sucess-container {
   background-color: #d4edda;
   width: 700px;
-  height: 45px;
+  height: 40px;
   border-radius: 3px;
   outline: 1px solid #b9edc5;
 
@@ -11,8 +11,8 @@
 
   padding-left: 20px;
 
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .sucess-container > span {

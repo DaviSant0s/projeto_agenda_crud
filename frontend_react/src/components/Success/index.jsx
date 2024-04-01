@@ -1,8 +1,8 @@
 import './styles.css';
 
-export default function Success({ msg }) {
+export default function Success({ msg, style={} }) {
   return (
-    <div className='sucess-container'>
+    <div style={style} className='sucess-container'>
       <span>{msg}</span>
     </div>
   )

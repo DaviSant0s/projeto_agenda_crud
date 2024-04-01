@@ -1,4 +1,5 @@
 import './styles.css';
+import Success from '../../components/Success'
 
 export default function RegisterContact() {
   return (
@@ -7,6 +8,11 @@ export default function RegisterContact() {
       <p>Crie ou edite seu contato abaixo</p>
 
       <div className='inputs-container-RegisterContact'>
+          <Success 
+            msg={'Contato Excluído com sucesso!'}
+            style={{marginBottom: '10px', width: '100%'}}
+          
+          />
 
           <div className='usual-style-inputs'>
             <span>Nome</span>
