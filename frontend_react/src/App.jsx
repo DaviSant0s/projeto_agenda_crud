@@ -12,8 +12,8 @@ function App() {
       <Header/>
       {/* <Contacts/> */}
       {/* <Logged/> */}
-      <RegisterContact/>
-      {/* <Enter/> */}
+      {/* <RegisterContact/> */}
+      <Enter/>
     </div>
   )
 }

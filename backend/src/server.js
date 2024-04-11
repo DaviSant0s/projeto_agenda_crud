@@ -1,9 +1,11 @@
 const express = require('express');
 
-const PORT = 3333;
+require('./config/database.js');
+
+const { PORT } = require('./config/env.js');
 
 // rotas
-const userRoutes = require('./routes/user.routes')
+const userRoutes = require('./routes/user.routes');
 
 
 const app = express();
